@@ -1,8 +1,9 @@
-JAVASRC = HelloUser.java
+
+JAVASRC = HelloUser.java HelloUser2.java
 SOURCES = README Makefile $(JAVASRC)
-MAINCLASS = HelloUser
-CLASSES = HelloUser.class
-JARFILE = HelloUser
+MAINCLASS = HelloUser2
+CLASSES = HelloUser.class HelloUser2.class
+JARFILE = Hello
 
 all: $(JARFILE)
 
@@ -14,6 +15,6 @@ $(JARFILE): $(CLASSES)
 
 $(CLASSES): $(JAVASRC)
 	javac -Xlint $(JAVASRC)
-	
+
 clean:
 	rm $(CLASSES) $(JARFILE)

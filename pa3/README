@@ -1,1 +1,15 @@
-Edit before submitting
+Author's :
+Jonathan Montgomery - jopmontg@ucsc.edu	
+Xinyuan Lu - xlu25@ucsc.edu
+
+Files included :
+      README
+      Dictionary.java
+      DictionaryTest.java
+      DuplicateKeyException.java
+      KeyNotFoundException.java
+      DictionaryInterface.java
+      DictionaryClient.java
+      Makefile
+
+PA3 - CS12B - Dictionary ADT

@@ -1,1 +1,5 @@
-Edit before submitting
+Lab 7 - CMPS12M
+
+Dicitonary BST in Java
+
+Files Included : Dictionary.java, DictionaryClient.java, KeyNotFoundException.java, DuplicateKeyException.java, Makefile
